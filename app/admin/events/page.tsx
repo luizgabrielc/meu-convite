@@ -8,7 +8,6 @@ export default async function AdminEventsPage() {
     .from("events")
     .select("*")
     .order("date", { ascending: true });
-  console.log("events", events);
   if (error) {
     return <div>Erro ao carregar eventos: {error.message}</div>;
   }
