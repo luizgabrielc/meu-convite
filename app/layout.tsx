@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Convite Especial: 2 anos da Maria Cecília!",
     description: "Você está convidado para a festa de 2 anos da Maria Cecília. Um dia de magia e diversão para celebrar essa data tão especial!",
     images: [{
-      url: "/convite-maria-cecilia-2-anos.svg",
+      url: "/convite-aniversario-maria-cecilia.svg",
       width: 1200,
       height: 630,
       alt: "Convite de Aniversário da Maria Cecília",

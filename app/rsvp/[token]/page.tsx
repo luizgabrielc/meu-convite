@@ -38,7 +38,7 @@ export default async function RSVPPage({
     justify-center"
       >
         <Image
-          src="/convite-maria-cecilia-2-anos.svg"
+          src="/convite-aniversario-maria-cecilia.svg"
           alt="Convite"
           width={1000}
           height={1000}
@@ -54,7 +54,7 @@ export default async function RSVPPage({
         <div className="w-full max-w-2xl xl:max-w-4xl bg-white/90 rounded-2xl shadow-xl flex flex-col md:flex-row items-center gap-8 p-4 md:p-10 border-4 border-blue-400 relative">
           <div className="w-full flex flex-col items-center md:w-1/2">
             <Image
-              src="/convite-maria-cecilia-2-anos.svg"
+              src="/convite-aniversario-maria-cecilia.svg"
               alt="Convite"
               width={350}
               height={350}
