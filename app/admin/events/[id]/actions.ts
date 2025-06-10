@@ -12,7 +12,7 @@ export async function addGuest(formData: FormData) {
   }
 
   const { error } = await supabase.from("guests").insert([
-    { name, event_id }
+    { name: name.trim(), event_id }
   ]);
 
   revalidatePath(`/admin/events/${event_id}`);
